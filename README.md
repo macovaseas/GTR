@@ -4,8 +4,7 @@
 
 > "The GT-R is not a supercar for a select few; it is a supercar for everyone, built to be enjoyed anywhere, anytime, by anyone." --**Nissan skyline**
 
-[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-orange.svg)](https://pytorch.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2602.10847-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2602.10847)
 
 This repository contains the official PyTorch implementation of the **(GTR)** — a lightweight, plug-and-play module designed to empower any multivariate time series forecasting (MTSF) model with the ability to capture global periodic patterns far beyond the fixed look-back window.
 
@@ -71,11 +70,13 @@ bash run_ablation.sh
 ## 📜 Citation
 If you find GTR useful, please consider citing our paper:
 ```bibtex
-@inproceedings{GTR,
-title={Enhancing Multivariate Time Series Forecasting with Global Temporal Retrieval},
-author={Anonymous},
-booktitle={The Fourteenth International Conference on Learning Representations},
-year={2026},
-url={https://openreview.net/forum?id=QUJBPSfyui}
+@misc{cao2026gtr,
+      title={Enhancing Multivariate Time Series Forecasting with Global Temporal Retrieval}, 
+      author={Fanpu Cao and Lu Dai and Jindong Han and Hui Xiong},
+      year={2026},
+      eprint={2602.10847},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2602.10847}, 
 }
 ```
