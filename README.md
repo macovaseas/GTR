@@ -70,13 +70,12 @@ bash run_ablation.sh
 ## 📜 Citation
 If you find GTR useful, please consider citing our paper:
 ```bibtex
-@misc{cao2026gtr,
-      title={Enhancing Multivariate Time Series Forecasting with Global Temporal Retrieval}, 
-      author={Fanpu Cao and Lu Dai and Jindong Han and Hui Xiong},
-      year={2026},
-      eprint={2602.10847},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2602.10847}, 
+@inproceedings{
+cao2026gtr,
+title={Enhancing Multivariate Time Series Forecasting with Global Temporal Retrieval},
+author={Fanpu Cao and Lu Dai and Jindong Han and Hui Xiong},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=QUJBPSfyui}
 }
 ```
